@@ -1,0 +1,24 @@
+{
+  "name": "youtube-live-chat-recorder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "format": "prettier --write ."
+  },
+  "author": "Aplulu",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "pino": "^9.0.0",
+    "puppeteer": "^22.7.1",
+    "zod": "^3.23.4"
+  }
+}
